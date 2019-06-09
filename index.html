@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="add_sale">
+        <input type="date" class = "date" min="2017-01-01" max="2017-12-31" value="">
+        <select class="salesman">
+          <option value="">Seleziona venditore</option>
+          <option value="Marco">Marco</option>
+          <option value="Giuseppe">Giuseppe</option>
+          <option value="Riccardo">Riccardo</option>
+          <option value="Roberto">Roberto</option>
+        </select>
+        <input type="text" class = "amount" class="amount" placeholder="Inserisci importo">
+        <button type="button" name="button">Aggiungi vendita</button>
+      </div>
+      <canvas id="myLineChart" width="100" height="100"></canvas>
+      <canvas id="myPieChart" width="100" height="100"></canvas>
+    </div>
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
